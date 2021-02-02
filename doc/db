@@ -55,7 +55,6 @@ CREATE TABLE IF NOT EXISTS `lock_table`
     KEY `idx_branch_id` (`branch_id`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8;
- 
 2、在每个事务的数据库建undo_log表 存放beforeimage及afterimage数据
 
 -- 注意此处0.3.0+ 增加唯一索引 ux_undo_log
