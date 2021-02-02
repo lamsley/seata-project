@@ -1,6 +1,7 @@
 1、创建一个名为seata的数据库
 要求：具有InnoDB引擎的MySQL。
 
+
 CREATE TABLE IF NOT EXISTS `global_table`
 (
     `xid`                       VARCHAR(128) NOT NULL,
